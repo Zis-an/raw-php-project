@@ -3,10 +3,10 @@
 
 
 
-# This project is going to be a Glossary. 
-# One where visitors can view a list of terms and their definitions. 
-# They will also be able to search for a term in order to get a definition. 
-# And it'll also have an admin section so that user can login in order to manage the terms.
+This project is going to be a Glossary. 
+One where visitors can view a list of terms and their definitions. 
+They will also be able to search for a term in order to get a definition. 
+And it'll also have an admin section so that user can login in order to manage the terms.
 
 
 
