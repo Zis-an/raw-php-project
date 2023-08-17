@@ -57,3 +57,16 @@ There are mainly two types of file till now. Controllers and views.
 
       app.php
         Holds all require('') statements for the application.
+
+    
+    # Lesson - 3
+
+    # Controller:
+
+      index.php
+        data retrived from the file is decoded into json format using json_decode() function and passed to the view function to generate a view.
+
+    # Views:
+
+      index.view.php
+        data gets to stored inside $model. A foreach loop performs on the variable to display each item stored inside the model in a table.
