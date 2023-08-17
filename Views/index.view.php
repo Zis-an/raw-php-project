@@ -4,6 +4,12 @@
             <h1 style="margin-top: 80px;">Glossary</h1>
         </div>
     </div>
+    <div class="row d-flex justify-content-end mb-3">
+        <form action="" method="GET" class="form-inline">
+            <input type="text" name="search" id="search">
+            <input type="submit" value="Search">
+        </form>
+    </div>
     <div class="row">
         <table class="table table-striped">
             <?php foreach($model as $item) :?>
