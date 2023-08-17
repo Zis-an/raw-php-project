@@ -82,3 +82,45 @@ There are mainly two types of file till now. Controllers and views.
 
     index.view.php
       data gets to stored inside $model. A foreach loop performs on the variable to display each item stored inside the model in a table.
+      
+
+  
+  # Lesson - 4
+  
+  # Controller:
+        
+    functions.php
+        new function redirect() is added which receives a url as parameter. It 
+        then sends the user to that specific page.
+        
+    file_functions.php
+        New function get_term() is added. This function returns $item containing 
+        term or false. 
+        
+    
+    
+    ---- New File ----
+    
+    detail.php
+        contents of index.php is added.
+        condition is added to check if the term is set or not inside the GET 
+        request.
+        New function get_term() is used. term stored inside GET request is sent 
+        as parameter.
+        
+    
+  # Views:
+    
+    index.view.php
+        query string is added to the term. Terms are turned into a links and 
+        query string is added so that it can take the user to a new page to get a 
+        detailed view of that term.
+        
+    ---- New File ----
+    
+    detail.view.php
+        content same as index.view.php. Just the view function is changed. 
+        Returning detail page with $data.
+        
+    not_found.view.php
+        when term is not found, this page is supposed to send to the user.

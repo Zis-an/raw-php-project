@@ -8,6 +8,18 @@ function get_terms() {
 
 }
 
+function get_term($term) {
+    $terms = get_terms();
+
+    foreach($terms as $item) {
+        if ($item->term == $term) {
+            return $item;
+        }
+    }
+
+    return false;
+}
+
 function get_data() {
     $fname =  CONFIG['data_file'];
 
