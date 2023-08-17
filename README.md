@@ -8,6 +8,8 @@ One where visitors can view a list of terms and their definitions.
 They will also be able to search for a term in order to get a definition. 
 And it'll also have an admin section so that user can login in order to manage the terms.
 
+Link: https://www.youtube.com/watch?v=t0syDUSbdfE&t=12640s
+
 
 
 
