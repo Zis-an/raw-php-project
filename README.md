@@ -65,6 +65,16 @@ There are mainly two types of file till now. Controllers and views.
 
       index.php
         data retrived from the file is decoded into json format using json_decode() function and passed to the view function to generate a view.
+        variable inside the call of view function is removed and get_terms() function call is added.
+        Title is served in a single line.
+
+      app.php
+        New require of file_functions.php is added.
+
+      ---- New File ----
+
+      file_functions.php
+        File related functions are moved into the file named file_functions.php. New function named get_terms is created to return json decoded data.
 
     # Views:
 
