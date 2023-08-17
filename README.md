@@ -58,25 +58,26 @@ There are mainly two types of file till now. Controllers and views.
       app.php
         Holds all require('') statements for the application.
 
-    
-    # Lesson - 3
 
-    # Controller:
 
-      index.php
-        data retrived from the file is decoded into json format using json_decode() function and passed to the view function to generate a view.
-        variable inside the call of view function is removed and get_terms() function call is added.
-        Title is served in a single line.
+  # Lesson - 3
 
-      app.php
-        New require of file_functions.php is added.
+  # Controller:
 
-      ---- New File ----
+    index.php
+      data retrived from the file is decoded into json format using json_decode() function and passed to the view function to generate a view.
+      variable inside the call of view function is removed and get_terms() function call is added.
+      Title is served in a single line.
 
-      file_functions.php
-        File related functions are moved into the file named file_functions.php. New function named get_terms is created to return json decoded data.
+    app.php
+      New require of file_functions.php is added.
 
-    # Views:
+    ---- New File ----
 
-      index.view.php
-        data gets to stored inside $model. A foreach loop performs on the variable to display each item stored inside the model in a table.
+    file_functions.php
+      File related functions are moved into the file named file_functions.php. New function named get_terms is created to return json decoded data.
+
+  # Views:
+
+    index.view.php
+      data gets to stored inside $model. A foreach loop performs on the variable to display each item stored inside the model in a table.
