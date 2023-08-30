@@ -141,3 +141,15 @@ Link: https://www.youtube.com/watch?v=t0syDUSbdfE&t=12640s
 
     index.view.php
         search form is added in order to search the terms.
+
+
+<!-- # Lesson -  6
+
+# Controller:
+
+    Admin:
+
+        index.php
+            
+
+# Views: -->
