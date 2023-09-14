@@ -143,13 +143,33 @@ Link: https://www.youtube.com/watch?v=t0syDUSbdfE&t=12640s
         search form is added in order to search the terms.
 
 
-<!-- # Lesson -  6
+# Lesson -  6
+
+    New folder 'Admin' is created.
+
+    Another new folder called 'Admin' is created inside the Views folder.
 
 # Controller:
 
-    Admin:
+    app.php
+        Added an absolute path using define function to get the app name/path. define('APP_PATH', dirname(__FILE__) . '/../');
 
-        index.php
+    functions.php
+        Concatenate the APP_PATH variable to the views so that it can be accessible from everywhere.
+
+    config.php
+        Added APP_PATH to the data_file index of the CONFIG array.
             
+# Views:
 
-# Views: -->
+
+
+# Admin:
+
+# Controller:
+
+    index.php
+
+        Absolute Path
+
+# Views:
